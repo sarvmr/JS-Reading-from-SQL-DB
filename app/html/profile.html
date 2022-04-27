@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/profile.css" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/imgs/favicon.ico" rel="icon" type="image/x-icon" />
+  <title>Profile</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="grid-7 element-animation">
+      <!--card-1-->
+      <div class="card color-card">
+        <ul>
+          <li><i class="fas fa-arrow-left i-l w"></i></li>
+          <li><i class="fas fa-ellipsis-v i-r w"></i></li>
+          <li><i class="far fa-heart i-r w"></i></li>
+        </ul>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- <img src="/imgs/avatar.png">        -->
+        <div id="profile_name">
+          <h1 class="title"></h1>
+        </div>
+        <br>
+        <br>
+        <div id="post_title"> Today's Post:</div>
+        <br>
+        <div id="desc_top">
+          <p>...</p>
+        </div>
+        <hr>
+        <div class="container">
+          <div class="content">
+
+            <div class="grid-2">
+              <button class="color-c circule"><i class="fas fa-eye fa-2x"></i></button>
+              <p id="post_view" class="title"></p>
+
+            </div>
+            <div class="grid-2">
+              <button class="color-d circule"><i class="fas fa-clock fa-2x"></i></button>
+              <p id="post_time" class="title"></p>
+
+            </div>
+            <div class="grid-2">
+              <button class="color-b circule"> <i class="fas fa-calendar-alt fa-2x"></i></button>
+              <p id="post_date" class="title"></p>
+
+            </div>
+          </div>
+        </div>
+        <form action="/logout" method="get">
+          <input type="submit" value="LOGOUT" />
+        </form>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+</body>
+
+</html>

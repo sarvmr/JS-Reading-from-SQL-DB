@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'atwriter';
+    src: url('/fonts/atwriter.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: "atwriter";
+  font-size: 17pt;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, vw100);
+  grid-template-rows: repeat(5, vh100);
+  align-items: end;
+  background: url("/imgs/night-vancouver.jpg") center/cover fixed;
+  backdrop-filter: blur(6px);
+}
+
+input{
+  font-family: "atwriter";
+}
+
+label{
+  font-size:medium;
+}
+
+#errorMsg {
+  color: red;
+}
+
+#formPanel { 
+  grid-row: 1 / span 2;
+  grid-column: 2 / span 3;
+}
+
+
+footer {
+  grid-row: 5 / 5;
+  grid-column: 1 / span 5;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.75em;
+}
+
+/* footer #left {
+  float: left;
+
+}
+
+footer #right {
+  float: right;
+  text-align: right;
+  
+} */
+
+#loginForm {
+  /* background-color: rgba(87, 151, 151, 0.452); */
+  color: white;
+  text-align: center;
+}
+
+
+#loginForm > input {
+  font-size: 1.1em;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  outline: none;
+  border: none;
+  text-align: center;
+  color: #033342;
+  padding: 0.4em;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  border: 2px solid #033342;
+}
+
+#formTitle {
+  font-size:xx-large;
+  padding: 30px;
+}
+
+::placeholder {color: #033342;}
+
+
+#loginForm > input[type="button"] {
+  background-color: #033342;
+  border: 3px solid #f2f2f8;
+  border-radius: 3px;
+  color: #f2f2f8;
+  cursor: pointer;
+}
+#loginForm > input[type="button"]:hover {
+  color: #212121;
+  background-color: #f2f2f8;
+  outline: none;
+}
+

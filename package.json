@@ -1,0 +1,20 @@
+{
+  "name": "sessions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "session-app.js",
+  "scripts": {
+    "init-db": "node init-db",
+    "init-db-data": "node init-db-data",
+    "start": "node session-app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "fs": "^0.0.1-security",
+    "jsdom": "^19.0.0",
+    "mysql": "^2.18.1"
+  }
+}
